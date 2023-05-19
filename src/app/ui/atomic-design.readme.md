@@ -26,6 +26,7 @@ They are used by higher-order components (like pages or organisms) to take care 
 
 Let's see this with a simple example:
 
+FIXME:
 ![Example](https://miro.medium.com/v2/resize:fit:640/format:webp/1*RRtb7rE8nC1XpA-13RaEwQ.png)
 
 This approach is not only great for small pieces of code, like the Angular Material cards, but also for screen-wide designs. When a layout component with a `router-outlet` isn't enough, or you need to split up the code, this may be a good solution. Once the original code is stable, refactoring to templates is a matter of cut & paste, taking no longer than several minutes.
